@@ -1,10 +1,39 @@
-2024-12-08 16:12:18,197 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\preprocessed\merged_data.csv
-2024-12-08 16:12:18,207 - INFO - Data preprocessing completed successfully.
-2024-12-08 16:12:18,229 - INFO - Cosine similarity computed successfully.
-2024-12-08 16:12:18,267 - INFO - Recommended Videos: [{'id': 31, 'title': "Don't laugh", 'category.name': 'Vible', 'video_link': 'https://video-cdn.socialverseapp.com/afrobeezy_2d1f97b5-c67a-4afa-945e-730d2e496f2c.mp4', 'view_count': 144, 'average_rating': 6, 'comment_count': 0}, {'id': 1284, 'title': 'Solana Buntun bridge  #ctto#sunset #Solana#calm #sky #fyp #trendingvideo', 'category.name': 'SolTok', 'video_link': 'https://video-cdn.socialverseapp.com/kinha_3a078171-d205-4d83-b6b6-df27ee10071a.mp4', 'view_count': 70, 'average_rating': 16, 'comment_count': 5}, {'id': 459, 'title': 'Have Faith, and keep moving Forward...', 'category.name': 'Gratitube', 'video_link': 'https://video-cdn.socialverseapp.com/swapnil_a541a193-62db-46c6-87d0-81b024822790.mp4', 'view_count': 64, 'average_rating': 0, 'comment_count': 6}, {'id': 1511, 'title': 'Motivation', 'category.name': 'Super Feed', 'video_link': 'https://video-cdn.socialverseapp.com/devika_09f5c0l1i_7a54283c-c480-43ff-bd80-fae2e098ea47.mp4', 'view_count': 36, 'average_rating': 97, 'comment_count': 0}, {'id': 1570, 'title': 'POWER', 'category.name': 'Super Feed', 'video_link': 'https://video-cdn.socialverseapp.com/devika_09f5c0l1i_93128d72-9006-4389-8e59-1a864c35032b.mp4', 'view_count': 34, 'average_rating': 98, 'comment_count': 0}]
-2024-12-08 16:59:13,016 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\prepocessed\merged_data.csv
-2024-12-08 16:59:13,028 - INFO - Data preprocessing completed successfully.
-2024-12-08 16:59:13,046 - INFO - Cosine similarity computed successfully.
-2024-12-08 17:00:53,098 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\prepocessed\merged_data.csv
-2024-12-08 17:00:53,103 - INFO - Data preprocessing completed successfully.
-2024-12-08 17:00:53,117 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:37:53,685 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:37:53,710 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:37:53,784 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:40:05,443 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:40:05,463 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:40:05,531 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:42:30,822 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:42:30,833 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:42:30,885 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:42:47,301 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:42:47,315 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:42:47,381 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:42:56,974 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:42:56,985 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:42:57,038 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:44:57,471 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:44:57,482 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:44:57,538 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:45:42,250 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:45:42,263 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:45:42,328 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:46:11,010 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:46:11,034 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:46:11,096 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:56:43,676 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:56:43,688 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:56:43,750 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:58:10,736 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:58:10,748 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:58:10,813 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:58:20,404 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:58:20,415 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:58:20,472 - INFO - Cosine similarity computed successfully.
+2024-12-08 20:59:13,819 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 20:59:13,833 - INFO - Data preprocessing completed successfully.
+2024-12-08 20:59:13,892 - INFO - Cosine similarity computed successfully.
+2024-12-08 21:00:05,754 - INFO - Data loaded successfully from C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv
+2024-12-08 21:00:05,768 - INFO - Data preprocessing completed successfully.
+2024-12-08 21:00:05,834 - INFO - Cosine similarity computed successfully.

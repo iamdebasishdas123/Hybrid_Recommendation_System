@@ -1,0 +1,7 @@
+requests
+pandas
+os
+logging
+pathlib
+sklearn
+numpy

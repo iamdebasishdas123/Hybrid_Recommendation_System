@@ -33,33 +33,27 @@ def preprocess_data(merged_data):
         merged_data['comment_count'] = pd.to_numeric(merged_data['comment_count'], errors='coerce').fillna(0)
         merged_data['upvote_count'] = pd.to_numeric(merged_data['upvote_count'], errors='coerce').fillna(0)
         merged_data['view_count'] = pd.to_numeric(merged_data['view_count'], errors='coerce').fillna(0)
-        merged_data['share_count'] = pd.to_numeric(merged_data['share_count'], errors='coerce').fillna(0)
-        # merged_data["follower_count"] = merged_data["follower_count"].fillna('')
-        # merged_data["following_count"] = merged_data["following_count"].fillna('')
+        merged_data['share_count_x'] = pd.to_numeric(merged_data['share_count_x'], errors='coerce').fillna(0)
 
         # Calculate engagement score
         merged_data['engagement_score'] = (
             merged_data['comment_count'] +
             merged_data['upvote_count'] +
             merged_data['view_count'] +
-            merged_data['share_count']
+            merged_data['share_count_x']
         )
 
         # Ensure all text columns are strings before concatenation
         merged_data['title'] = merged_data['title'].astype(str)
-        merged_data['post_summary_x'] = merged_data['post_summary_x'].astype(str)
+        merged_data['bio'] = merged_data['bio'].astype(str)
         merged_data['category.name'] = merged_data['category.name'].astype(str)
         merged_data['category.description'] = merged_data['category.description'].astype(str)
-        # merged_data["role"] = merged_data["role"].astype(str)
-        # merged_data["follower_count"] = merged_data["follower_count"].astype(str)
-        # merged_data["bio"] = merged_data["bio"].astype(str)
-        # merged_data["following_count"] = merged_data["following_count"].astype(str)
-        # merged_data["is_verified"] = merged_data["is_verified"].astype(str)
+  
 
         # Combine text-based columns to create a metadata summary for the content
         merged_data['metadata'] = (
             merged_data['title'] + ' ' +
-            merged_data['post_summary_x'] + ' ' +
+            merged_data['bio'] + ' ' +
             merged_data['category.name'] + ' ' +
             merged_data['category.description']
         )
@@ -105,7 +99,7 @@ def recommend_collaborative(user, user_item_matrix, user_factors, item_factors, 
         logging.error(f"Error in recommend_collaborative: {e}")
         return []
 
-# Define function for new user recommendations
+# Define function for new user recommendations 
 def recommend_new_user_videos(merged_data):
     try:
         top_categories = (
@@ -155,27 +149,29 @@ def recommend_hybrid(user, user_item_matrix, user_factors, item_factors, cosine_
             recommendation = pd.concat([content, user_based])
             return recommendation.to_dict(orient="records")
         else:
-            return recommend_new_user_videos(posts_df)
+            x=recommend_new_user_videos(posts_df)
+            return x
     except Exception as e:
         logging.error(f"Error in recommend_hybrid: {e}")
         return []
 
 # Main script
-merged_data = load_data(r"C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\prepocessed\merged_data.csv")
+merged_data = load_data(r"C:\Users\Debasish Das\Desktop\Internship Project\Hybrid_rccomendation_System\data\preprocessed\merged_data.csv")
 if merged_data is not None:
     preprocess_data(merged_data)
     cosine_sim = compute_cosine_similarity(merged_data)
 
     # Create a User-Item Interaction Matrix
     user_item_matrix = merged_data.pivot_table(index="username", columns="id", values="engagement_score", fill_value=0)
-
+    
     # Apply SVD
     svd = TruncatedSVD(n_components=10)
     user_factors = svd.fit_transform(user_item_matrix)
     item_factors = svd.components_
 
-    user = "new_user"  # Test with a new user
+    user = "New_user"  # Test with a new user
+    user="Rishwanth"
     recommended_videos = recommend_hybrid(user, user_item_matrix, user_factors, item_factors, cosine_sim, merged_data)
-    
+    print("Printed recommendations",recommended_videos)
     with open('recommendations.json', 'w') as file:
         json.dump(recommended_videos, file, indent=4)
