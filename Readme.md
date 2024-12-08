@@ -1,7 +1,7 @@
 
 ---
 
-# Recommendation System with DVC and Databricks Integration
+# Recommendation System 
 
 ## Overview
 
