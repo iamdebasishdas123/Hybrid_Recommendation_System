@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1570,
+        "title": "POWER",
+        "category.name": "Super Feed",
+        "video_link": "https://video-cdn.socialverseapp.com/devika_09f5c0l1i_93128d72-9006-4389-8e59-1a864c35032b.mp4",
+        "view_count": 34,
+        "average_rating": 98,
+        "comment_count": 0
+    },
+    {
+        "id": 1523,
+        "title": "Video-894Motivation",
+        "category.name": "Super Feed",
+        "video_link": "https://video-cdn.socialverseapp.com/kunalarya_5ceb96be-b306-4041-8ec3-8a78efc08858.mp4",
+        "view_count": 37,
+        "average_rating": 98,
+        "comment_count": 0
+    },
+    {
+        "id": 590,
+        "title": "nan",
+        "category.name": "Vible",
+        "video_link": "https://video-cdn.socialverseapp.com/kinha_6ae0dbb4-0617-46cc-a73e-978a608256c7.mp4",
+        "view_count": 163,
+        "average_rating": 35,
+        "comment_count": 5
+    },
+    {
+        "id": 19,
+        "title": "WE ARE MADE OF STARS",
+        "category.name": "Vible",
+        "video_link": "https://video-cdn.socialverseapp.com/michael_1085c54c-26e8-4691-8558-f618f7b5732f.mp4",
+        "view_count": 137,
+        "average_rating": 16,
+        "comment_count": 0
+    },
+    {
+        "id": 31,
+        "title": "Don't laugh",
+        "category.name": "Vible",
+        "video_link": "https://video-cdn.socialverseapp.com/afrobeezy_2d1f97b5-c67a-4afa-945e-730d2e496f2c.mp4",
+        "view_count": 144,
+        "average_rating": 6,
+        "comment_count": 0
+    }
+]

@@ -1,0 +1,22 @@
+2024-12-08 14:54:12,573 - INFO - Starting data ingestion...
+2024-12-08 14:54:19,377 - INFO - Data from https://api.socialverseapp.com/posts/view?page=1&page_size=1000 saved successfully to data/view.csv.
+2024-12-08 14:54:23,919 - INFO - Data from https://api.socialverseapp.com/posts/like?page=1&page_size=1000 saved successfully to data/liked.csv.
+2024-12-08 14:54:26,235 - INFO - Data from https://api.socialverseapp.com/posts/inspire?page=1&page_size=1000 saved successfully to data/inspire.csv.
+2024-12-08 14:54:34,459 - INFO - Data from https://api.socialverseapp.com/posts/rating?page=1&page_size=1000 saved successfully to data/rating.csv.
+2024-12-08 14:55:13,739 - INFO - Data from https://api.socialverseapp.com/posts/summary/get?page=1&page_size=1000 saved successfully to data/summary.csv.
+2024-12-08 14:55:17,669 - INFO - Data from https://api.socialverseapp.com/users/get_all?page=1&page_size=1000 saved successfully to data/get_all.csv.
+2024-12-08 14:55:17,671 - INFO - Data ingestion completed successfully.
+2024-12-08 15:15:36,517 - INFO - Starting data ingestion...
+2024-12-08 15:15:39,296 - INFO - Data from https://api.socialverseapp.com/posts/view?page=1&page_size=1000 saved successfully to data/view.csv.
+2024-12-08 15:15:40,651 - INFO - Data from https://api.socialverseapp.com/posts/like?page=1&page_size=1000 saved successfully to data/liked.csv.
+2024-12-08 15:15:41,664 - INFO - Data from https://api.socialverseapp.com/posts/inspire?page=1&page_size=1000 saved successfully to data/inspire.csv.
+2024-12-08 15:15:44,278 - INFO - Data from https://api.socialverseapp.com/posts/rating?page=1&page_size=1000 saved successfully to data/rating.csv.
+2024-12-08 15:15:47,461 - INFO - Data from https://api.socialverseapp.com/users/get_all?page=1&page_size=1000 saved successfully to data/get_all.csv.
+2024-12-08 15:15:47,464 - INFO - Data ingestion completed successfully.
+2024-12-08 16:24:08,106 - INFO - Starting data ingestion...
+2024-12-08 16:24:18,763 - INFO - Data from https://api.socialverseapp.com/posts/view?page=1&page_size=1000 saved successfully to data/raw/view.csv.
+2024-12-08 16:24:22,560 - INFO - Data from https://api.socialverseapp.com/posts/like?page=1&page_size=1000 saved successfully to data/raw/liked.csv.
+2024-12-08 16:24:24,438 - INFO - Data from https://api.socialverseapp.com/posts/inspire?page=1&page_size=1000 saved successfully to data/raw/inspire.csv.
+2024-12-08 16:24:32,202 - INFO - Data from https://api.socialverseapp.com/posts/rating?page=1&page_size=1000 saved successfully to data/raw/rating.csv.
+2024-12-08 16:24:42,669 - INFO - Data from https://api.socialverseapp.com/users/get_all?page=1&page_size=1000 saved successfully to data/raw/get_all.csv.
+2024-12-08 16:24:42,670 - INFO - Data ingestion completed successfully.
